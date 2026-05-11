@@ -49,6 +49,6 @@ make demo
 ```
 
 ## Web App
-Mở `index.html` trực tiếp trong trình duyệt (không cần server).
+Link Web (Đảm Bảo AN TOÀN) : http://tomlynh.io.vn/lab9/
 
 
