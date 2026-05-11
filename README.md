@@ -51,8 +51,4 @@ make demo
 ## Web App
 Mở `index.html` trực tiếp trong trình duyệt (không cần server).
 
-## Demo giao diện
-Ảnh demo giao diện được đính kèm bên dưới. Để hiển thị trong `README`, đặt file ảnh vào `assets/demo.png` trong thư mục dự án (nếu bạn đang sử dụng GitHub, commit file ảnh cùng README):
-![Demo giao diện](assets/demo.svg)
 
-<!-- Image added to repo as assets/demo.svg -->
