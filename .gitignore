@@ -1,0 +1,10 @@
+node_modules/
+*.pem
+*.bin
+message.txt
+signature.bin
+temp_*.txt
+*.o
+generate_keys
+sign_message
+verify_signature

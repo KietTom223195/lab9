@@ -1,0 +1,129 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║                  🔐 RSA LAB v2.0 - CHẠY HẾT                         ║
+║                  Hệ Thống Mã Hóa & Giao Tiếp Mạng                   ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+
+👉 CÁCH NHANH NHẤT (1 BỨC):
+
+   Windows:
+   --------
+   Nhấp đúp file: run_all.bat
+   (Tự động cài npm + khởi động server)
+
+   macOS/Linux:
+   -----------
+   Terminal: bash run_all.sh
+
+
+✨ SAU 30 GIÂY:
+
+   Bạn sẽ thấy:
+   
+   ╔════════════════════════════════════════════════════════════╗
+   ║                    SERVER RUNNING                          ║
+   ║                                                            ║
+   ║  🌐 Web Interface:  http://localhost:3000                  ║
+   ║  🔌 WebSocket:      ws://localhost:3000                    ║
+   ║  📡 TCP Server:     localhost:5000                         ║
+   ║                                                            ║
+   ║  Open browser → http://localhost:3000                      ║
+   ║  Press Ctrl+C to stop server                               ║
+   ║                                                            ║
+   ╚════════════════════════════════════════════════════════════╝
+
+
+🎮 DÙNG NGAY:
+
+   1. Mở Chrome/Firefox: http://localhost:3000
+   
+   2. Bạn sẽ thấy giao diện siêu đẹp:
+      - Neon xanh + hồng
+      - Lưới kẻ chuyển động
+      - Text glow animations
+   
+   3. Bắt đầu:
+      ✓ Nhấn ⚡ GENERATE → Tạo khóa
+      ✓ Nhập tin → Ký ✍ SIGN
+      ✓ Kết nối 🔌 CONNECT
+      ✓ Gửi ✈ SEND
+
+
+👥 2 MÁYSYNC KẾT NỐI:
+
+   Máy A (Chạy npm start):
+   ├─ Lấy IP: ipconfig → tìm "IPv4 Address"
+   │         Ví dụ: 192.168.1.100
+   └─ http://192.168.1.100:3000
+
+   Máy B (Client):
+   └─ Vào: http://192.168.1.100:3000
+      Kết nối & giao tiếp 2 chiều! 🎉
+
+
+📦 CÀI ĐẶT THỦ CÔNGữ
+
+   1. Mở cmd:
+      cd c:\Users\Tom\Desktop\rsa_lab\rsa_webapp
+   
+   2. Cài npm packages:
+      npm install
+   
+   3. Chạy server:
+      npm start
+
+
+🌐 CÁC PORT:
+
+   Port 3000: HTTP + WebSocket (Giao diện)
+   Port 5000: TCP Socket (Tùy chọn)
+
+
+🎨 GIAO DIỆN:
+
+   - Cyberpunk theme
+   - 4 Cards chính:
+     1. 🔐 Key Genesis - Tạo khóa
+     2. ✍ Sign Message - Ký tin
+     3. 🔍 Verify Sig - Xác minh
+     4. 🌐 Network Relay - Gửi qua mạng
+
+
+✅ HOÀN THÀNH:
+
+   ✓ Backend Node.js + Express + Socket.io
+   ✓ Frontend Cyberpunk UI
+   ✓ RSA-2048 encryption
+   ✓ Digital signatures
+   ✓ Network communication
+   ✓ Real-time chat
+   ✓ Cross-machine sync
+
+
+🆘 KHÔNG CHẠY?
+
+   ❌ "npm: command not found"
+      → Cài Node.js: https://nodejs.org
+   
+   ❌ "Port 3000 already in use"
+      → taskkill /F /IM node.exe
+   
+   ❌ Không kết nối server
+      → Kiểm tra firewall
+      → Kiểm tra IP đúng chưa
+
+
+💡 TIP:
+
+   • Tạo khóa → Ký → Gửi → Nhận → Xác minh
+   • 2 tab cùng máy: test trước
+   • 2 máy LAN: dùng IP thực
+
+
+═══════════════════════════════════════════════════════════════════════
+
+                    🚀 SẴN SÀNG CHƯA? LET'S GO!
+
+                    Nhấp đúp run_all.bat bây giờ! ⚡
+
+═══════════════════════════════════════════════════════════════════════

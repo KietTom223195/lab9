@@ -1,0 +1,217 @@
+═══════════════════════════════════════════════════════════════════════
+  🔐 RSA LAB v2.0 - CYBER ENCRYPTION & NETWORK COMMUNICATION
+═══════════════════════════════════════════════════════════════════════
+
+✨ CHẠY HẾT CHO BẠN - TOÀN BỘ HỆ THỐNG
+
+═══════════════════════════════════════════════════════════════════════
+
+🎯 BƯỚC 1: CHUẨN BỊ
+
+Yêu cầu:
+  ✓ Node.js v14+ (tải từ https://nodejs.org)
+  ✓ npm (đi kèm Node.js)
+  
+Kiểm tra:
+  cmd → node --version
+  cmd → npm --version
+
+═══════════════════════════════════════════════════════════════════════
+
+🚀 BƯỚC 2: CHẠY SERVER (3 CÁCH)
+
+CÁCH 1: Nhấp đúp file (Dễ nhất)
+  ────────────────────────────
+  1. Mở thư mục: c:\Users\Tom\Desktop\rsa_lab\rsa_webapp
+  2. Nhấp đúp: run_all.bat
+  3. Chờ script tự động:
+     - Cài npm packages
+     - Build C++ programs
+     - Khởi động server
+  4. Thấy "SERVER RUNNING" → Đã xong!
+
+CÁCH 2: Command Prompt
+  ────────────────────
+  1. Mở cmd (Command Prompt)
+  2. Gõ:
+     cd c:\Users\Tom\Desktop\rsa_lab\rsa_webapp
+     npm install
+     npm start
+  3. Chờ thấy "npm start" chạy
+
+CÁCH 3: Git Bash / Terminal
+  ─────────────────────────
+  cd c:\Users\Tom\Desktop\rsa_lab\rsa_webapp
+  npm install
+  npm start
+
+═══════════════════════════════════════════════════════════════════════
+
+🌐 BƯỚC 3: TRUY CẬP GIAO DIỆN
+
+Sau khi server chạy:
+  
+1. Mở trình duyệt (Chrome, Firefox, Edge, Safari)
+2. Vào: http://localhost:3000
+3. Bạn sẽ thấy giao diện CYBERPUNK tuyệt đẹp!
+
+Server chạy tại:
+  🌐 HTTP/WebSocket: http://localhost:3000
+  📡 TCP Socket:     localhost:5000
+
+═══════════════════════════════════════════════════════════════════════
+
+🔧 BƯỚC 4: SỬ DỤNG CÁC TÍNH NĂNG
+
+1️⃣  KEY GENESIS (Tạo Khóa)
+    └─ Nhấn: ⚡ GENERATE
+       • Tạo cặp khóa RSA-2048
+       • Hiển thị public/private keys
+       • Download file .pem
+
+2️⃣  SIGN MESSAGE (Ký Thông Điệp)
+    └─ Nhập thông điệp → Nhấn: ✍ SIGN
+       • Ký bằng private key
+       • SHA-256 hashing
+       • Download signature.bin
+
+3️⃣  VERIFY SIG (Xác Minh Chữ Ký)
+    └─ Nhập thông điệp + ký → Nhấn: 🔍 VERIFY
+       • Xác minh tính xác thực
+       • Phát hiện giả mạo
+       • Test tampering
+
+4️⃣  NETWORK RELAY (Gửi Qua Mạng)
+    └─ Nhấn: 🔌 CONNECT
+       • Kết nối tới server
+       • Gửi thông điệp
+       • Nhận tin nhắn
+       • Ký & gửi
+
+═══════════════════════════════════════════════════════════════════════
+
+👥 BƯỚC 5: KỢI NỐI 2 MÁYSYNC
+
+TRƯỜNG HỢP 1: Cùng máy (Test)
+  ─────────────────────────
+  1. Mở: http://localhost:3000 (Tab 1)
+  2. Mở: http://localhost:3000 (Tab 2)
+  3. Tab 1 + Tab 2 kết nối cùng server
+  4. Gửi tin giữa 2 tab → Nhận ngay!
+
+TRƯỜNG HỢP 2: 2 Máy khác nhau (LAN)
+  ──────────────────────────────────
+  Máy A (Chạy Server):
+    1. Mở cmd → npm start
+    2. Lấy IP: cmd → ipconfig
+    3. Tìm dòng "IPv4 Address"
+    4. Ví dụ: 192.168.1.100
+
+  Máy B (Client):
+    1. Mở browser
+    2. Vào: http://192.168.1.100:3000
+    3. Nhấn 🔌 CONNECT
+    4. Nhập: Server: 192.168.1.100, Port: 3000
+    5. Kết nối! 🎉
+
+═══════════════════════════════════════════════════════════════════════
+
+✍️ BƯỚC 6: GỬI & KÝ THÔNG ĐIỆP LIÊN MẠNG
+
+Máy A (Gửi):
+  ──────────
+  1. Tạo khóa: ⚡ GENERATE
+  2. Nhập tin: "Xin chào!"
+  3. Ký tin: ✍ SIGN
+  4. Kết nối: 🔌 CONNECT (localhost:3000)
+  5. Gửi: ✍ SIGN+SEND
+
+Máy B (Nhận):
+  ──────────
+  1. Kết nối: 🔌 CONNECT (192.168.1.100:3000)
+  2. Nhận tin → Hiển thị tự động
+  3. Copy tin vào tab "Verify Sig"
+  4. Xác minh: 🔍 VERIFY
+  5. Kết quả: ✅ VALID hoặc ❌ INVALID
+
+═══════════════════════════════════════════════════════════════════════
+
+🎨 BƯỚC 7: THƯỞNG THỨC GIAO DIỆN
+
+Giao diện Cyberpunk bao gồm:
+  ✨ Neon colors (xanh, xanh lơ, hồng)
+  🌊 Grid background chuyển động
+  📺 Scanlines (tựa CRT screen)
+  ⚡ Text glow animations
+  🎯 Hover effects trên cards & buttons
+  💬 Chat slide-in animations
+  🔲 Glassmorphism design
+  🎪 Glitch effects khi lỗi
+
+═══════════════════════════════════════════════════════════════════════
+
+🆘 TROUBLESHOOTING
+
+❌ Lỗi: "npm: command not found"
+   → Cài Node.js: https://nodejs.org
+
+❌ Lỗi: "Port 3000 already in use"
+   → Kill process cũ:
+     cmd → netstat -ano | findstr :3000
+     cmd → taskkill /PID <PID> /F
+
+❌ Lỗi: "Socket connection refused"
+   → Kiểm tra firewall
+   → Kiểm tra IP address
+   → Ping máy khác: ping 192.168.1.100
+
+❌ Lỗi: "g++ not found" (C++ compile)
+   → Optional, không ảnh hưởng
+   → Web crypto API vẫn hoạt động
+
+═══════════════════════════════════════════════════════════════════════
+
+📊 KIẾN TRÚC HỆ THỐNG
+
+Browser (Port 3000)
+      ↓ WebSocket
+Node.js Server (Express + Socket.io)
+      ↓ Child Process
+C++ Programs (OpenSSL)
+      ↓
+    RSA-2048 Encryption
+
+═══════════════════════════════════════════════════════════════════════
+
+📁 CẤU TRÚC TỆP
+
+rsa_webapp/
+  ├─ index.html          (Giao diện Cyberpunk)
+  ├─ server.js           (Backend Node.js)
+  ├─ package.json        (Dependencies)
+  ├─ run_all.bat         (Chạy tất cả - Windows)
+  ├─ run_all.sh          (Chạy tất cả - macOS/Linux)
+  ├─ generate_keys.cpp   (Tạo khóa - C++)
+  ├─ sign_message.cpp    (Ký thông điệp - C++)
+  ├─ verify_signature.cpp (Xác minh - C++)
+  ├─ README_VI.md        (Hướng dẫn tiếng Việt)
+  ├─ QUICKSTART.txt      (Bắt đầu nhanh)
+  └─ node_modules/       (Installed packages)
+
+═══════════════════════════════════════════════════════════════════════
+
+🎯 TÓCTẮ
+
+  1. Nhấp đúp: run_all.bat (hoặc npm start)
+  2. Mở: http://localhost:3000
+  3. Tạo khóa → Ký thông điệp → Gửi qua mạng
+  4. 2 máy kết nối → Giao tiếp 2 chiều
+  5. Thưởng thức giao diện Cyberpunk! 🚀
+
+═══════════════════════════════════════════════════════════════════════
+
+✅ HẾT! CHÚC BẠN SỬ DỤNG VỪA LÒNG!
+
+Bất kỳ vấn đề → Kiểm tra QUICKSTART.txt hoặc README_VI.md
+
+═══════════════════════════════════════════════════════════════════════
